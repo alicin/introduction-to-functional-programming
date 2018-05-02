@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "make-a-spectacle": "^0.1.0",
+    "prismjs": "1.6",
     "react": "^16.3.1",
     "react-dom": "^16.3.1"
   },

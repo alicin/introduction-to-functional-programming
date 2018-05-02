@@ -7,7 +7,7 @@ import { Deck } from "spectacle";
 // Import theme
 import createTheme from "spectacle/lib/themes/default";
 
-import { Intro, Outro } from "./sections";
+import { Intro, Outro, Statefulness } from "./sections";
 
 // Require CSS
 require("normalize.css");
@@ -29,11 +29,12 @@ export default class Presentation extends React.Component {
   render() {
     return (
       <Deck
-        transition={["zoom", "slide"]}
-        transitionDuration={500}
+        transition={["slide"]}
+        transitionDuration={333}
         theme={theme}
       >
         {Intro}
+        {Statefulness}
         {Outro}
       </Deck>
     );

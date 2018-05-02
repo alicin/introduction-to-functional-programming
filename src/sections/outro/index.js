@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { Slide, SlideSet } from "spectacle";
+import { Slide } from "spectacle";
 
 import fixit from "make-a-spectacle";
 
