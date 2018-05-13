@@ -7,7 +7,7 @@ import { Deck } from "spectacle";
 // Import theme
 import createTheme from "spectacle/lib/themes/default";
 
-import { Intro, Outro, Statefulness } from "./sections";
+import { Intro, Statefulness, Basics, Outro } from "./sections";
 
 // Require CSS
 require("normalize.css");
@@ -24,6 +24,7 @@ const theme = createTheme(
     secondary: "Helvetica"
   }
 );
+theme.screen.components.codePane.fontSize = "1.2em";
 
 export default class Presentation extends React.Component {
   render() {
@@ -35,6 +36,7 @@ export default class Presentation extends React.Component {
       >
         {Intro}
         {Statefulness}
+        {Basics}
         {Outro}
       </Deck>
     );

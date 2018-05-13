@@ -1,0 +1,2 @@
+(λx.λy.Add x y)(One)(Two)
+(λxy.Add x y)(One)(Two)
