@@ -53,8 +53,8 @@ export default fixit(
     </Slide>
     <Slide>
       <Text>Any pure function <Code>f(x)</Code> can be replaced by the return of <Code>f(x)</Code></Text>
-      <Appear><Code>1 + 3 * 2</Code> -> <Code>1 + 6</Code> -> <Code>7</Code></Appear>
-      <Appear><Code>(1 + 3) * 2</Code> -> <Code>4 * 2</Code> -> <Code>8</Code></Appear>
+      <Appear><Text><Code>1 + 3 * 2</Code> -> <Code>1 + 6</Code> -> <Code>7</Code></Text></Appear>
+      <Appear><Text><Code>(1 + 3) * 2</Code> -> <Code>4 * 2</Code> -> <Code>8</Code></Text></Appear>
     </Slide>
     <Slide>
       <Text>This really is as simple as it seems</Text>
