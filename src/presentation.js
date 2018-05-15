@@ -7,7 +7,15 @@ import { Deck } from "spectacle";
 // Import theme
 import createTheme from "spectacle/lib/themes/default";
 
-import { Intro, Outro, Statefulness, FilterMapReduce, Basics, Closures } from "./sections";
+import {
+  Intro,
+  Outro,
+  Statefulness,
+  FilterMapReduce,
+  Basics,
+  Closures,
+  CPSPromises,
+} from "./sections";
 
 // Require CSS
 require("normalize.css");
@@ -39,6 +47,7 @@ export default class Presentation extends React.Component {
         {Basics}
         {FilterMapReduce}
         {Closures}
+        {CPSPromises}
         {Outro}
       </Deck>
     );
