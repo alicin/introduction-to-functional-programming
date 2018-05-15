@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Slide, Heading, Text, CodePane, BlockQuote, Cite } from "spectacle";
+import { Slide, Heading, Text, CodePane, BlockQuote, Cite, Image } from "spectacle";
 import fixit from "make-a-spectacle";
 
 import {
@@ -10,6 +10,8 @@ import {
   OrderResolution
 } from "./examples";
 
+import memento from "./memento.jpg";
+
 export default fixit(
   <React.Fragment>
     <Slide>
@@ -17,6 +19,7 @@ export default fixit(
       <Text>What if your app was really Guy Pearce in Memento?</Text>
     </Slide>
     <Slide>
+      <Image src={memento}/>
       <Text>But really, though...</Text>
     </Slide>
     <Slide>
